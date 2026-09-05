@@ -1,124 +1,49 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-GB">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>SprintLab — Terms of Service</title>
-<meta name="description" content="SprintLab Terms of Service." />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Terms of Service — SprintLab · Moved</title>
+<meta name="description" content="SprintLab's terms of service has moved to vyteralabs.com/sprintlab/, where Vytera Labs publishes it alongside its other apps." />
+<link rel="canonical" href="https://www.vyteralabs.com/sprintlab/terms/" />
+<meta http-equiv="refresh" content="0; url=https://www.vyteralabs.com/sprintlab/terms/" />
+<meta name="robots" content="noindex, follow" />
+<meta name="theme-color" content="#0B1017" />
 <style>
-  :root{
-    --bg:#0c1015; --card:#12181f; --text:#e7ecf2; --muted:#9aa6b2;
-    --accent:#4c9ffe; --border:#232c37; --link:#6db3ff;
-  }
-  @media (prefers-color-scheme: light){
-    :root{ --bg:#f5f7fa; --card:#ffffff; --text:#1a2230; --muted:#5a6472;
-           --accent:#1f6feb; --border:#e2e7ee; --link:#1f6feb; }
-  }
+  :root{--ink:#0B1017;--paper:#ECE6DA;--paper-dim:#AEB6C2;--muted:#6E7787;--brass:#C2A05B;
+        --line:rgba(236,230,218,.22);
+        --serif:Georgia,"Times New Roman",serif;
+        --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+        --mono:ui-monospace,SFMono-Regular,Menlo,monospace;}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 72px}
-  header{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:8px}
-  .brand{display:flex;align-items:center;gap:12px}
-  .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7d5cff);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px}
-  h1{font-size:1.7rem;margin:22px 0 4px}
-  h2{font-size:1.14rem;margin:28px 0 8px}
-  .eff{color:var(--muted);font-size:.92rem;margin-top:2px}
-  a{color:var(--link)}
-  ul{padding-left:22px}
-  li{margin:6px 0}
-  strong{color:var(--text)}
-  nav.pill{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-  nav.pill a{font-size:.9rem;text-decoration:none;color:var(--muted);
-    border:1px solid var(--border);border-radius:999px;padding:5px 12px}
-  nav.pill a:hover{color:var(--text);border-color:var(--accent)}
-  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
-    color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px;
+       background:var(--ink);color:var(--paper);font-family:var(--sans);font-size:17px;line-height:1.6;}
+  main{max-width:34rem;text-align:center}
+  .mark{width:34px;height:34px;margin:0 auto 26px;border:1px solid var(--brass);display:grid;
+        place-items:center;font-family:var(--serif);font-size:19px;color:var(--brass);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+           color:var(--brass);margin:0 0 18px;}
+  h1{font-family:var(--serif);font-weight:400;font-size:clamp(28px,6vw,40px);line-height:1.1;
+     letter-spacing:-.02em;margin:0 0 18px;}
+  p{color:var(--paper-dim);margin:0 0 26px;}
+  a.go{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:14px;
+       letter-spacing:.04em;padding:15px 26px;border:1px solid var(--line);color:var(--paper);
+       text-decoration:none;}
+  a.go:hover{border-color:var(--brass);background:rgba(194,160,91,.16);}
+  a.go span{color:var(--brass)}
+  .foot{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--muted);margin:34px 0 0;}
+  .foot a{color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand"><div class="logo">SL</div><div><strong>SprintLab</strong><div class="eff">by VyteraLabs.com</div></div></div>
-    <nav class="pill">
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="support.html">Support</a>
-    </nav>
-  </header>
-
-  <h1>Terms of Service</h1>
-  <p class="eff"><strong>Effective date:</strong> 2026-07-24</p>
-
-  <p>These Terms of Service (“Terms”) govern your use of the SprintLab mobile application (the “App”). The App is provided by SprintLab (“we”, “us”, “our”). By downloading, installing or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
-
-  <h2>1. The App</h2>
-  <p>SprintLab is a personal training and recovery companion. It helps you log training, track personal bests, and — if you choose to connect a health source — blend recovery signals into a training-readiness view. The App is designed to run locally on your device; see our <a href="privacy.html">Privacy Policy</a> for how your data is handled.</p>
-
-  <h2>2. Licence to use the App</h2>
-  <p>We grant you a personal, non-exclusive, non-transferable, revocable licence to install and use the App on any device that you own or control, for your own personal, non-commercial use, in accordance with these Terms and the applicable app store's terms of service.</p>
-
-  <h2>3. Not medical advice — health and safety</h2>
-  <p><strong>SprintLab is a fitness and information tool, not a medical device, and it does not provide medical advice.</strong> Readiness scores, training recommendations, and any other output — including any AI-generated insights, summaries or briefings produced on your device — are informational and general in nature. They are not a diagnosis, treatment, or professional advice, and must not be relied on as such.</p>
-  <ul>
-    <li>Always consult a qualified physician or healthcare professional before starting, changing, or stopping any exercise or training programme, and if you have any medical condition or concern.</li>
-    <li>You are solely responsible for how you train. Physical activity carries inherent risks. You participate at your own risk and should stop and seek medical attention if you feel unwell, faint, or experience pain.</li>
-    <li>Health metrics shown in the App come from third-party sources and may be inaccurate, incomplete, or delayed. Do not use them for any medical purpose.</li>
-  </ul>
-
-  <h2>4. Your responsibilities</h2>
-  <p>You agree to:</p>
-  <ul>
-    <li>provide accurate information when you use the App, understanding that its output is only as good as the information and device data you give it;</li>
-    <li>use the App only for lawful purposes and in line with these Terms;</li>
-    <li>keep your device and your own backups secure — because your data lives on your device, you are responsible for backing it up and for anything you export; and</li>
-    <li>not misuse the App, including by attempting to interfere with its normal operation.</li>
-  </ul>
-
-  <h2>5. Your data and privacy</h2>
-  <p>SprintLab is built to keep your data on your device. What we collect, store, and (in the single case of Oura sign-in) relay is described in full in our <a href="privacy.html">Privacy Policy</a>, which forms part of these Terms. You are responsible for the data you enter and for any data you choose to export from the App.</p>
-
-  <h2>6. Health sources and third-party services</h2>
-  <p>If you connect a health source (such as Oura, Garmin, or Apple Health), your use of that device or service is governed by that provider's own terms and privacy policy. Apple Health data is read on your device through Apple HealthKit with your permission and stays on your device. We are not responsible for third-party services, their availability, or the accuracy of the data they provide. Connecting a source is optional and entirely your choice, and you can disconnect it at any time.</p>
-
-  <h2>7. Intellectual property</h2>
-  <p>The App, its design, and its content are owned by us or our licensors and are protected by intellectual-property laws. These Terms do not transfer any ownership to you. Except to the extent permitted by law, you may not copy, modify, distribute, sell, lease, or reverse-engineer the App or any part of it.</p>
-
-  <h2>8. Availability and changes to the App</h2>
-  <p>We may update, change, or discontinue the App (or any feature of it) at any time. We do not guarantee that the App will always be available, uninterrupted, or error-free. New features may be added and existing ones changed or removed.</p>
-
-  <h2>9. Disclaimers</h2>
-  <p>To the fullest extent permitted by law, the App is provided <strong>“as is” and “as available”</strong>, without warranties of any kind, whether express or implied, including any implied warranties of satisfactory quality, fitness for a particular purpose, accuracy, or non-infringement. We do not warrant that the App will meet your requirements or that its output will be accurate or reliable.</p>
-
-  <h2>10. Limitation of liability</h2>
-  <p>To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, arising out of or relating to your use of, or inability to use, the App.</p>
-  <p>Nothing in these Terms excludes or limits our liability where it would be unlawful to do so — this includes liability for death or personal injury caused by our negligence, for fraud or fraudulent misrepresentation, or for any other liability that cannot be excluded under applicable law. If you are a consumer, these Terms do not affect your statutory rights.</p>
-
-  <h2>11. App store — additional terms</h2>
-  <p>These Terms are between you and us only, not with Apple or Google, and the app store provider is not responsible for the App or its content. Where the App is obtained through the Apple App Store, you also agree that:</p>
-  <ul>
-    <li>Apple has no obligation to provide any maintenance or support for the App;</li>
-    <li>to the extent permitted by law, Apple has no warranty obligation with respect to the App, and any claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty are our responsibility;</li>
-    <li>Apple is not responsible for addressing any claims by you or a third party relating to the App or your possession and use of it, including product-liability claims, any claim that the App fails to conform to any legal or regulatory requirement, and claims under consumer-protection or similar legislation;</li>
-    <li>in the event of any third-party claim that the App or your use of it infringes that third party's intellectual-property rights, we (not Apple) are responsible for the investigation, defence, settlement, and discharge of that claim;</li>
-    <li>you represent that you are not located in a country subject to a U.S. Government embargo or designated as “terrorist-supporting”, and that you are not on any U.S. Government list of prohibited or restricted parties; and</li>
-    <li>Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you.</li>
-  </ul>
-
-  <h2>12. Changes to these Terms</h2>
-  <p>We may update these Terms from time to time. When we do, we will revise the “Effective date” above, and material changes will be noted in the app store release notes of the version that introduces them. Your continued use of the App after changes take effect means you accept the updated Terms.</p>
-
-  <h2>13. Governing law</h2>
-  <p>These Terms are governed by the laws of England and Wales, and the courts of England and Wales have jurisdiction, except that if you are a consumer resident elsewhere, you may also have the benefit of any mandatory protections of the law of the country in which you live.</p>
-
-  <h2>14. Contact</h2>
-  <p>Questions about these Terms: <a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></p>
-
-  <footer>
-    <span>© SprintLab · VyteraLabs.com</span>
-    <span><a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></span>
-  </footer>
-</div>
+<main>
+  <div class="mark">V</div>
+  <p class="eyebrow">SprintLab</p>
+  <h1>This page has moved.</h1>
+  <p>SprintLab's terms of service is now published by Vytera Labs at <strong>vyteralabs.com/sprintlab/</strong>, alongside its other apps. You should be redirected automatically.</p>
+  <a class="go" href="https://www.vyteralabs.com/sprintlab/terms/">Continue to the terms of service <span>&rarr;</span></a>
+  <p class="foot">&copy; 2026 Vytera Labs Ltd &middot; <a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></p>
+</main>
+<script>location.replace("https://www.vyteralabs.com/sprintlab/terms/");</script>
 </body>
 </html>

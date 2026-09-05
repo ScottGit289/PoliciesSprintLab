@@ -1,128 +1,49 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-GB">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>SprintLab — Support</title>
-<meta name="description" content="Get help with SprintLab — the local-first training lab for sprinters. Contact info@vyteralabs.com." />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Support — SprintLab · Moved</title>
+<meta name="description" content="SprintLab's support page has moved to vyteralabs.com/sprintlab/, where Vytera Labs publishes it alongside its other apps." />
+<link rel="canonical" href="https://www.vyteralabs.com/sprintlab/support/" />
+<meta http-equiv="refresh" content="0; url=https://www.vyteralabs.com/sprintlab/support/" />
+<meta name="robots" content="noindex, follow" />
+<meta name="theme-color" content="#0B1017" />
 <style>
-  :root{
-    --bg:#0c1015; --card:#12181f; --text:#e7ecf2; --muted:#9aa6b2;
-    --accent:#4c9ffe; --border:#232c37; --link:#6db3ff;
-  }
-  @media (prefers-color-scheme: light){
-    :root{ --bg:#f5f7fa; --card:#ffffff; --text:#1a2230; --muted:#5a6472;
-           --accent:#1f6feb; --border:#e2e7ee; --link:#1f6feb; }
-  }
+  :root{--ink:#0B1017;--paper:#ECE6DA;--paper-dim:#AEB6C2;--muted:#6E7787;--brass:#C2A05B;
+        --line:rgba(236,230,218,.22);
+        --serif:Georgia,"Times New Roman",serif;
+        --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+        --mono:ui-monospace,SFMono-Regular,Menlo,monospace;}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 72px}
-  header{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:8px}
-  .brand{display:flex;align-items:center;gap:12px}
-  .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7d5cff);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px}
-  h1{font-size:1.7rem;margin:22px 0 4px}
-  h2{font-size:1.18rem;margin:30px 0 8px}
-  a{color:var(--link)}
-  strong{color:var(--text)}
-  nav.pill{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-  nav.pill a{font-size:.9rem;text-decoration:none;color:var(--muted);
-    border:1px solid var(--border);border-radius:999px;padding:5px 12px}
-  nav.pill a:hover{color:var(--text);border-color:var(--accent)}
-  .contact{background:var(--card);border:1px solid var(--border);border-radius:14px;
-    padding:22px;margin-top:18px;display:flex;flex-direction:column;gap:6px}
-  .contact .email{font-size:1.35rem;font-weight:700}
-  .contact .email a{text-decoration:none}
-  .muted{color:var(--muted)}
-  .btn{display:inline-block;margin-top:6px;background:var(--accent);color:#fff;text-decoration:none;
-    padding:10px 18px;border-radius:10px;font-weight:600;width:max-content}
-  details{border:1px solid var(--border);border-radius:10px;padding:2px 16px;margin:10px 0;background:var(--card)}
-  summary{cursor:pointer;font-weight:600;padding:12px 0;list-style:none}
-  summary::-webkit-details-marker{display:none}
-  summary::before{content:"＋";color:var(--accent);font-weight:700;margin-right:10px}
-  details[open] summary::before{content:"－"}
-  details .body{padding:0 0 12px;color:var(--text)}
-  ul{padding-left:20px} li{margin:5px 0}
-  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
-    color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px;
+       background:var(--ink);color:var(--paper);font-family:var(--sans);font-size:17px;line-height:1.6;}
+  main{max-width:34rem;text-align:center}
+  .mark{width:34px;height:34px;margin:0 auto 26px;border:1px solid var(--brass);display:grid;
+        place-items:center;font-family:var(--serif);font-size:19px;color:var(--brass);}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+           color:var(--brass);margin:0 0 18px;}
+  h1{font-family:var(--serif);font-weight:400;font-size:clamp(28px,6vw,40px);line-height:1.1;
+     letter-spacing:-.02em;margin:0 0 18px;}
+  p{color:var(--paper-dim);margin:0 0 26px;}
+  a.go{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:14px;
+       letter-spacing:.04em;padding:15px 26px;border:1px solid var(--line);color:var(--paper);
+       text-decoration:none;}
+  a.go:hover{border-color:var(--brass);background:rgba(194,160,91,.16);}
+  a.go span{color:var(--brass)}
+  .foot{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--muted);margin:34px 0 0;}
+  .foot a{color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand"><div class="logo">SL</div><div><strong>SprintLab</strong><div class="muted" style="font-size:.92rem">by VyteraLabs.com</div></div></div>
-    <nav class="pill">
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="support.html">Support</a>
-    </nav>
-  </header>
-
-  <h1>Support</h1>
-  <p>SprintLab is a local-first training lab for sprinters — track &amp; field athletes, masters sprinters and the coaches who train them. Everything runs on your device, with no account required. If something isn't working or you have a question, we're happy to help.</p>
-
-  <div class="contact">
-    <span class="muted">Email support</span>
-    <span class="email"><a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></span>
-    <span class="muted">We aim to reply within 2–3 business days. Please include your device model and iOS/Android version, and a short description of what you expected versus what happened.</span>
-    <a class="btn" href="mailto:info@vyteralabs.com?subject=SprintLab%20support">Email us</a>
-  </div>
-
-  <h2>Frequently asked questions</h2>
-
-  <details>
-    <summary>Do I need a wearable or an account to use SprintLab?</summary>
-    <div class="body">No. SprintLab works fully with manual entry and needs no account, no sign-up and no internet connection. Every readiness metric can be typed in by hand. A wearable is entirely optional and just auto-fills some numbers.</div>
-  </details>
-
-  <details>
-    <summary>How does the daily readiness score work?</summary>
-    <div class="body">Each day SprintLab blends your recovery signals (sleep, HRV, resting heart rate, body temperature, stress) with your own check-in (energy, motivation, leg freshness) and your recent training load into a 0–100 score and a clear call: Sprint, Gym, Recovery or Rest. Tap any metric on the Readiness screen to enter or edit it — the score updates instantly.</div>
-  </details>
-
-  <details>
-    <summary>How do I connect Oura?</summary>
-    <div class="body">Go to <strong>Settings → Wearables</strong>, turn on “Enable wearable sync”, then tap <strong>Connect Oura Ring</strong> and sign in on Oura's official page. SprintLab never sees your Oura password, and your health data comes straight to your phone. You can set how often it auto-syncs, and disconnect at any time.</div>
-  </details>
-
-  <details>
-    <summary>How do I connect Apple Health? (iPhone)</summary>
-    <div class="body">Go to <strong>Settings → Wearables</strong>, enable sync, tap <strong>Connect Apple Health</strong>, and tap <em>Allow</em> on Apple's permission sheet. SprintLab reads sleep, resting heart rate, HRV, respiratory rate and blood oxygen <strong>entirely on your device</strong> — no account, nothing leaves your phone. You can review or revoke access any time in iOS Settings → Privacy &amp; Security → Health.</div>
-  </details>
-
-  <details>
-    <summary>What is “on-device intelligence” and is my data safe?</summary>
-    <div class="body">It’s an optional setting (<strong>Settings → Intelligence</strong>, off by default) that uses <strong>Apple Intelligence</strong> to write your insights and daily briefing. It runs <strong>entirely on your iPhone</strong> — nothing is sent to Apple, to us, or anyone else, and it’s never used for ads or model training. It needs a compatible iPhone with Apple Intelligence enabled; on other devices SprintLab uses its built-in engine instead, and works exactly the same. Turn it off any time.</div>
-  </details>
-
-  <details>
-    <summary>Can I return a metric to its wearable value after editing it?</summary>
-    <div class="body">Yes. A manual edit always wins, but the original wearable reading is kept underneath. Open the metric on the Readiness screen and tap “Use Oura value” to restore it.</div>
-  </details>
-
-  <details>
-    <summary>How do I back up or move my data?</summary>
-    <div class="body">Use <strong>Settings → Export backup</strong> to save a copy via the system share sheet (Files, AirDrop, email, etc.). On another device, use <strong>Import backup</strong> and choose that file. Because your data lives only on your device, we recommend exporting a backup periodically — there is no cloud copy.</div>
-  </details>
-
-  <details>
-    <summary>How do I delete my data?</summary>
-    <div class="body">Use <strong>Settings → Delete all data</strong>, or simply delete the app. Everything is stored on your device, so there is nothing held anywhere else to remove.</div>
-  </details>
-
-  <details>
-    <summary>Why is a personal best marked “wind-aided”?</summary>
-    <div class="body">For sprints up to 200 m, a tailwind over +2.0 m/s makes a time wind-aided — it's kept and shown, but never counted as a legal PB. You can hide wind-aided results entirely in Settings.</div>
-  </details>
-
-  <h2>Privacy &amp; terms</h2>
-  <p>SprintLab collects nothing and stores everything on your device. Read the full <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
-
-  <footer>
-    <span>© SprintLab · VyteraLabs.com</span>
-    <span><a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></span>
-  </footer>
-</div>
+<main>
+  <div class="mark">V</div>
+  <p class="eyebrow">SprintLab</p>
+  <h1>This page has moved.</h1>
+  <p>SprintLab's support page is now published by Vytera Labs at <strong>vyteralabs.com/sprintlab/</strong>, alongside its other apps. You should be redirected automatically.</p>
+  <a class="go" href="https://www.vyteralabs.com/sprintlab/support/">Continue to the support page <span>&rarr;</span></a>
+  <p class="foot">&copy; 2026 Vytera Labs Ltd &middot; <a href="mailto:info@vyteralabs.com">info@vyteralabs.com</a></p>
+</main>
+<script>location.replace("https://www.vyteralabs.com/sprintlab/support/");</script>
 </body>
 </html>
