@@ -126,7 +126,7 @@ one-time lifetime purchase. Payment is charged to your Apple ID at confirmation.
 Subscriptions renew automatically unless cancelled at least 24 hours before the
 end of the period; manage or cancel in your App Store account settings.
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: https://sdtuk.com/sprintlab/privacy.html
+Privacy Policy: https://www.vyteralabs.com/sprintlab/privacy/
 ```
 
 ---
