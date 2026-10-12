@@ -117,10 +117,9 @@ The app is **free to download**. **SprintLab Pro** is sold by in-app purchase (S
 **Description addition (required for subscriptions, Guideline 3.1.2):** add this to the end of the App Description:
 
 ```
-SPRINTLAB PRO (OPTIONAL)
-Logging, PBs, the sprint calculator, today's readiness score, Apple Health and
-backup are free. Pro adds performance analytics, the full insight feed, Oura
-sync, age grading and the on-device AI coach.
+7 DAYS FREE, THEN SPRINTLAB PRO
+Every feature is free for 7 days from your first entry. After that, SprintLab
+needs Pro to keep working. Exporting or deleting your data never needs Pro.
 Pro is available as a monthly or annual auto-renewing subscription, or a
 one-time lifetime purchase. Payment is charged to your Apple ID at confirmation.
 Subscriptions renew automatically unless cancelled at least 24 hours before the
